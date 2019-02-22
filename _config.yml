@@ -1,49 +1,55 @@
-# Site settings
+## 网站设置
+# 标题
 title: Blog
+# 选项卡标题
 SEOTitle: 周大路的博客 | SuperZhouDalu‘s Blog
-header-img: img/post-bg-desk.jpg
+# 首页背景图片
+header-img: img/post-bg-debug.jpg
+# 邮箱设置
 email: zhoujianlu666@gmail.com
+# 网站介绍
 description: "I guess it comes down to a simple choice:get busy living or get busy dying."
+# 关键词
 keyword: "Java, Kotlin, Android, Vue.js, Apple, iPhone"
-url: "https://aigq.me"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+# 博客访问链接
+url: "https://aigq.me"
+# '/blog' if your blog hosted on 'host/blog'
+baseurl: ""
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+## 侧边栏设置
+# 是否开启侧边栏 true 开始 false 关闭
+sidebar: true
+# 侧边栏描述语句
 sidebar-about-description: "知识就是力量。"
-sidebar-avatar: /img/post-bg-2015.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# 侧边栏头像
+sidebar-avatar: /img/sidebar-avatar.jpg
 
-
-
-# SNS settings
+## 社交网站设置
 RSS: false
-# weibo_username:     zhoudalu
+# 微博 打开个人主页截取用户编号 例如个人主页网址为https://weibo.com/u/5089298519 填写 5089298519
+weibo_username:     5089298519
+# 知乎个人页面 填写用户名
 zhihu_username:     Zhoudalu
+# GitHub个人页面 填写用户名
 github_username:    superZhouDaLu
-facebook_username:  100024292873470
+# facebook个人页面 填写用户名
+#facebook_username:  100024292873470
+# 简书个人页面截取用户编号 与微博同理
 jianshu_username:   56a2c6b6027c
+# twitter个人页面 填写用户名
 #twitter_username:   zhoudalu
 
-
-
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+## 构建设置
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
-
-# Gems
+## Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
 
-
-
-
-# Markdown settings
+## Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
@@ -52,50 +58,46 @@ highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
-
-
-# 评论系统
+## 评论系统
 # Disqus（https://disqus.com/）
 disqus_username: superZhoudalu
 
-# Gitalk
+## Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: superZhoudalu    #github用户名
+  #是否开启Gitalk评论
+  enable: false
+  #生成的clientID
+  clientID: f2c84e7629bb1446c1a4
+  #生成的clientSecret
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d
+  #仓库名称
+  repo: superzhoudalu.github.io
+  #github用户名
+  owner: superZhoudalu
   admin: superZhoudalu
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true
 
-
-# 统计
-
-# Analytics settings
+## 统计
 # Baidu Analytics
 #ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto
 
-
-
-
-
-# Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
-
-
+## 标签设置
+# 是否使用首页标签
+featured-tags: true
+# 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
-# Friends
+## 友情链接
 friends: [
     {
         title: "帅超",
