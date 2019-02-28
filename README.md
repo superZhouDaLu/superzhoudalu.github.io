@@ -1,13 +1,9 @@
 ![](http://pnm3ue6ui.bkt.clouddn.com/sshot-2.png)
 
 [![Build Status](https://travis-ci.org/superZhouDaLu/superzhoudalu.github.io.svg?branch=master)](https://travis-ci.org/superZhouDaLu/superzhoudalu.github.io)
-
 [![GitHub issues](https://img.shields.io/github/issues/superZhouDaLu/superzhoudalu.github.io.svg?style=flat)](https://github.com/superZhouDaLu/superzhoudalu.github.io/issues)
-
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/superZhouDaLu/superzhoudalu.github.io/blob/master/LICENSE)
-
 [![](https://img.shields.io/github/stars/superZhouDaLu/superzhoudalu.github.io.svg?style=social&label=Star)](https://github.com/superZhouDaLu/superzhoudalu.github.io)
-
 [![](https://img.shields.io/github/forks/superZhouDaLu/superzhoudalu.github.io.svg?style=social&label=Fork)](https://github.com/superZhouDaLu/superzhoudalu.github.io)
 
 博客的搭建教程修改自 [BY](https://github.com/qiubaiying/qiubaiying.github.io)
