@@ -1,14 +1,15 @@
 ---
 layout:     post
-title:      CheckedMyStar
-subtitle:   GQ
-date:       2018-06-11
+title:      这是标题
+subtitle:   这是子标题
+date:       2019-02-26
 author:     SuperZhouDalu
-header-img: img/post-bg-2015.jpg
+header-img: img/post-bg-coffee.jpg
 catalog: true
 tags:                              
     - 笔记
 ---
-# 为什么Star都已经99+了
-记录一下自己在GitHub上面star的项目以及观看频率
+# 搭建GitTalk评论
+
+
 
