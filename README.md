@@ -1,4 +1,4 @@
-![](http://pnm3ue6ui.bkt.clouddn.com/sshot-2.png)
+![](http://pnm3ue6ui.bkt.clouddn.com/sshot-5.png)
 
 [![Build Status](https://travis-ci.org/superZhouDaLu/superzhoudalu.github.io.svg?branch=master)](https://travis-ci.org/superZhouDaLu/superzhoudalu.github.io)
 [![GitHub issues](https://img.shields.io/github/issues/superZhouDaLu/superzhoudalu.github.io.svg?style=flat)](https://github.com/superZhouDaLu/superzhoudalu.github.io/issues)
