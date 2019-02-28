@@ -60,21 +60,21 @@ kramdown:
 
 ## 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: superZhoudalu
+# disqus_username: superZhoudalu
 
 ## Gitalk
 gitalk:
   #是否开启Gitalk评论
-  enable: false
+  enable: true
   #生成的clientID
-  clientID: f2c84e7629bb1446c1a4
+  clientID: bde9d2bff0cd1048efeb
   #生成的clientSecret
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d
+  clientSecret: 4be7e16501b7e64eb16568815fe5948fc3007ad1
   #仓库名称
   repo: superzhoudalu.github.io
   #github用户名
-  owner: superZhoudalu
-  admin: superZhoudalu
+  owner: superZhouDaLu
+  admin: superZhouDaLu
   #是否启用类似FB的阴影遮罩
   distractionFreeMode: true
 
