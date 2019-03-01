@@ -246,11 +246,9 @@ gitalk: 
 
 统计目前集成了 百度统计 和 Google Analytics 两种方式，在相应官网绑定自己的博客网站信息后可以拿到 `track_id`，然后填写到对应的  `_config.yml`  中：
 
-``` fenxi
-# Baidu Analytics
+```
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
-# Google Analytics
 ga_track_id: 'UA-135281137-1'
 # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 ga_domain: https://aigq.me
