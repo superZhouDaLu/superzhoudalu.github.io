@@ -44,8 +44,6 @@ tags:
 
 首先你需要点击跳转到 [我的仓库](https://github.com/superZhouDaLu/superzhoudalu.github.io)，点击右上角 **fork** 按钮将此项目拉取到你的仓库下。
 
-**[:arrow_up: 返回导航](#使用)**
-
 ### 开始
 
 ``` shell
@@ -100,8 +98,6 @@ description: "I guess it comes down to a simple choice:get busy living or get bu
 
 点击 `Rename` 按钮后，你就可以在网页输入 `https://"你的GitHub用户名".github.io`  查看效果了。至此已经完成了一半啦，剩余的就是一些你专属的配置了。
 
-**[:arrow_up: 返回导航](#使用)**
-
 ### 撰写文章
 
 要发表的文章一般以 **Markdown** 的格式放在这里 `_posts/`，如果你还不了解 **Markdown** 语法，可以点击[这里](https://markdown-zh.readthedocs.io/en/latest/)进行学习。每篇博客的标头是固定的，以下是的配置内容：
@@ -122,7 +118,6 @@ tags:   
 ## 标题
 ### 内容
 ```
-**[:arrow_up: 返回导航](#使用)**
 
 ### 侧边栏
 
@@ -144,8 +139,6 @@ sidebar-avatar: /img/sidebar-avatar.jpg
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap[栅格系统](http://v3.bootcss.com/css/)。
 
-**[:arrow_up: 返回导航](#使用)**
-
 ### 推荐标签
 
 推荐标签位于侧边栏首部，针对博客的tags进行分类。相关配置在 `_config.yml` 中：
@@ -159,8 +152,6 @@ featured-condition-size: 0
 ```
 唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
 内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的。
-
-**[:arrow_up: 返回导航](#使用)**
 
 ### 社交账号
 
@@ -184,8 +175,6 @@ jianshu_username:   56a2c6b6027c
 # twitter个人页面 填写用户名
 twitter_username:   zhoudalu
 ```
-**[:arrow_up: 返回导航](#使用)**
-
 ### 好友链接
 
 好友链接部分会在所以页面展示，相关配置在 `_config.yml` 中：
@@ -211,7 +200,6 @@ friends: [   
     }
 ]
 ```
-**[:arrow_up: 返回导航](#使用)**
 
 ### 评论
 
@@ -266,8 +254,6 @@ gitalk: 
 ```
 3. 点开任意一篇博客就会显示聊天框啦，随意输入内容进行讨论吧。
 
-**[:arrow_up: 返回导航](#使用)**
-
 ### 网站分析
 
 统计目前集成了 百度统计 和 Google Analytics 两种方式，在相应官网绑定自己的博客网站信息后可以拿到 `track_id`，然后填写到对应的  `_config.yml`  中：
@@ -281,6 +267,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 ga_track_id: 'UA-135281137-1'
 # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 ga_domain: https://aigq.me
+
 ```
 
 ## 致谢
