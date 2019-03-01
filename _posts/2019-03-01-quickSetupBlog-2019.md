@@ -77,7 +77,6 @@ tags:
 主要通过修改`_config.yml`文件配置博客内容：
 
 ```
-## 网站设置
 # 标题
 title: Blog
 # 选项卡标题
@@ -122,7 +121,6 @@ tags:   
 关于侧边栏的设置是在 `_config.yml` 中：
 
 ```
-## 侧边栏设置
 # 是否开启侧边栏 true 开始 false 关闭
 sidebar: true
 # 侧边栏描述语句
@@ -138,7 +136,6 @@ sidebar-avatar: /img/sidebar-avatar.jpg
 推荐标签位于侧边栏首部，针对博客的tags进行分类。相关配置在 `_config.yml` 中：
 
 ```
-## 标签设置
 # 是否使用首页标签
 featured-tags: true
 # 相同标签数量大于这个数，才会出现在首页
@@ -154,7 +151,6 @@ featured-condition-size: 0
 目前支持`微博`、`知乎`、`GitHub`、`Facebook`、`简书`、`Twitter`社交账号链接，未罗列的暂不支持，可以自己手动集成。相关配置在 `_config.yml` 中：
 
 ```
-## 社交网站设置
 RSS: false
 # 微博 打开个人主页截取用户编号 例如个人主页网址为https://weibo.com/u/5089298519 填写 5089298519
 weibo_username:     5089298519
@@ -175,7 +171,6 @@ twitter_username:   zhoudalu
 好友链接部分会在所以页面展示，相关配置在 `_config.yml` 中：
 
 ```
-## 友情链接
 friends: [    
     {       
         title: "帅超",
@@ -215,7 +210,6 @@ friends: [   
  ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19yzb04j31jo0v8dju.jpg)
 `Username`  对应着 `_config.yml` 中  `disqus_username` ：
 ```
-# Disqus（https://disqus.com/）
 disqus_username: superZhoudalu
 ```
 
@@ -231,7 +225,6 @@ disqus_username: superZhoudalu
  ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n1a9u9c8j31jo0v8jw0.jpg)
 2.  点击创建，会生成 `Client ID` 和 `Client Secret`，填入 `_config.yml` 下列的参数内
 ```
-## Gitalk
 gitalk:  
     #是否开启Gitalk评论  
     enable: true  
@@ -253,8 +246,7 @@ gitalk: 
 
 统计目前集成了 百度统计 和 Google Analytics 两种方式，在相应官网绑定自己的博客网站信息后可以拿到 `track_id`，然后填写到对应的  `_config.yml`  中：
 
-```
-## 统计
+``` fenxi
 # Baidu Analytics
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
