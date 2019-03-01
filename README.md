@@ -1,4 +1,4 @@
-![](http://pnm3ue6ui.bkt.clouddn.com/sshot-5.png)
+![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n18e6qehj31jo0v8wj0.jpg)
 
 [![Build Status](https://travis-ci.org/superZhouDaLu/superzhoudalu.github.io.svg?branch=master)](https://travis-ci.org/superZhouDaLu/superzhoudalu.github.io)
 [![GitHub issues](https://img.shields.io/github/issues/superZhouDaLu/superzhoudalu.github.io.svg?style=flat)](https://github.com/superZhouDaLu/superzhoudalu.github.io/issues)
@@ -32,7 +32,7 @@
     * [网站分析](#网站分析)
     
 ### 起步
-![](http://pnm3ue6ui.bkt.clouddn.com/sshot-3.png)
+![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n1697dd8j31jo0v80we.jpg)
 
 博客使用 [GitHub Pages](https://pages.github.com/) + [jkeyll](http://jekyllcn.com/) 搭建，配置极其简单，搭建完成仅需不到半小时。首先点击右上角 **fork** 按钮将此项目拉取到你的仓库下。
 
@@ -88,7 +88,7 @@ description: "I guess it comes down to a simple choice:get busy living or get bu
 ```
 将 `_config.yml` 文件中 `url` 修改为 `https://"你的GitHub用户名" + .github.io`, 清空CNAME文件内容并提交，再将项目名称修改为 `你的GitHub用户名 .github.io` ，如下图
 
-![](http://pnm3ue6ui.bkt.clouddn.com/sshot-4.png)
+![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n17uz8d8j31jo0v842k.jpg)
 
 点击 `Rename` 按钮后，你就可以在网页输入 `https://"你的GitHub用户名".github.io`  查看效果了。至此已经完成了一半啦，剩余的就是一些你专属的配置了。
 
@@ -120,7 +120,7 @@ tags:   
 
 看右边：
 
-![](http://pnm3ue6ui.bkt.clouddn.com/sshot-6.png)
+![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n18koc6hj31jo0v8n1y.jpg)
 
 关于侧边栏的设置是在 `_config.yml` 中：
 
@@ -156,7 +156,7 @@ featured-condition-size: 0
 
 ### 社交账号
 
-![](http://pnm3ue6ui.bkt.clouddn.com/sshot-7.png)
+![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n18vvg9ej307s01t0sl.jpg)
 
 目前支持`微博`、`知乎`、`GitHub`、`Facebook`、`简书`、`Twitter`社交账号链接，未罗列的暂不支持，可以自己手动集成。相关配置在 `_config.yml` 中：
 
@@ -219,9 +219,9 @@ friends: [   
 
 1. 前往[disqus官网](https://disqus.com/)注册一个属于自己的账号。
 2. 进入[设置页面](https://disqus.com/home/settings/profile/)配置个人信息：
- ![](http://pnm3ue6ui.bkt.clouddn.com/sshot-8.png)
+ ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19onbuhj31jo0v8tdk.jpg)
 3. 在左侧菜单栏选择 `Account` ，并找到 `Username` 。
- ![](http://pnm3ue6ui.bkt.clouddn.com/sshot-9.png)
+ ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19yzb04j31jo0v8dju.jpg)
 `Username`  对应着 `_config.yml` 中  `disqus_username` ：
 ```
 # Disqus（https://disqus.com/）
@@ -237,7 +237,7 @@ disqus_username: superZhoudalu
 **使用：**
 
 1. Gitalk 需要一个 Github Application，[点击这里申请](https://github.com/settings/applications/new)。填写以下参数：
- ![](http://pnm3ue6ui.bkt.clouddn.com/sshot-10.png)
+ ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n1a9u9c8j31jo0v8jw0.jpg)
 2.  点击创建，会生成 `Client ID` 和 `Client Secret`，填入 `_config.yml` 下列的参数内
 ```
 ## Gitalk
