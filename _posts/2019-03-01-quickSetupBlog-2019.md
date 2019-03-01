@@ -264,12 +264,10 @@ gitalk: 
 ## 统计
 # Baidu Analytics
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
 # Google Analytics
 ga_track_id: 'UA-135281137-1'
 # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 ga_domain: https://aigq.me
-
 ```
 
 ## 致谢
