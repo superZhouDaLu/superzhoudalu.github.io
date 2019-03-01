@@ -3,8 +3,8 @@ layout:     post
 title:      快速搭建个人博客
 subtitle:   极其简单的搭建教程
 date:       2019-03-01
-author:     SuperZhouDalu
-header-img: img/post-gethub-cup.jpg
+author:     SuperZhouDaLu
+header-img: img/post-github-cup.jpg
 catalog: true
 tags:                              
     - 笔记
