@@ -234,7 +234,8 @@ disqus_username: superZhoudalu
 
 1. Gitalk 需要一个 Github Application，[点击这里申请](https://github.com/settings/applications/new)。填写以下参数：
  ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n1a9u9c8j31jo0v8jw0.jpg)
-2.  点击创建，会生成 `Client ID` 和 `Client Secret`，填入 `_config.yml` 下列的参数内
+2.  点击创建，会生成 `Client ID` 和 `Client Secret`，填入 `_config.yml` 下列的参数内：
+
 ```
 ## Gitalk
 gitalk:  
@@ -252,6 +253,7 @@ gitalk: 
     #是否启用类似FB的阴影遮罩  
     distractionFreeMode: true
 ```
+
 3. 点开任意一篇博客就会显示聊天框啦，随意输入内容进行讨论吧。
 
 ### 网站分析
