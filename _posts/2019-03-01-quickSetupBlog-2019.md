@@ -10,6 +10,7 @@ tags:
     - 笔记
 ---
 
+## 快速搭建个人博客
 
 ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n18e6qehj31jo0v8wj0.jpg)
 
