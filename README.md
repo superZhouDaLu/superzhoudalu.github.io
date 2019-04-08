@@ -13,8 +13,8 @@
 
 >
 ### 支持
-* 你可以自由的fork。如果你能将主题作者和 github 的地址保留在你的页面底部，我将非常感谢你。
-* 如果你喜欢我的这个博客模板，请在这个repository点个赞——右上角 ***star*** 一下。
+* 你可以自由的 fork。如果你能将主题作者和 Github 的地址保留在你的页面底部，我将非常感谢你。
+* 如果你喜欢我的这个博客模板，请在这个 repository 点个赞——右上角 ***star*** 一下。
 
 >
 ## 使用
@@ -44,7 +44,7 @@
 ├── _includes                 // 公共页面
 │   ├── footer.html           // 底部页面 
 │   ├── head.html             // 头部页面
-│   ├── nav.html              // 导航栏页面
+│   └── nav.html              // 导航栏页面
 ├── _layouts                  // 页面布局
 ├── _posts                    // 存放博客（仅支持markdown格式）
 ├── css                       // css样式
@@ -70,7 +70,7 @@
 └── tags.html                 // '关键字'页面
 ```  
 
-主要通过修改`_config.yml`文件配置博客内容：
+主要通过修改 `_config.yml` 文件配置博客内容：
 
 ```
 ## 网站设置
@@ -86,7 +86,7 @@ email: zhoujianlu666@gmail.com
 description: "I guess it comes down to a simple choice:get busy living or get busy dying."
 ~~~ ~~~ （内容较多，不适合全部展示，关键配置均有中文注释）
 ```
-将 `_config.yml` 文件中 `url` 修改为 `https://"你的GitHub用户名" + .github.io`, 清空CNAME文件内容并提交，再将项目名称修改为 `你的GitHub用户名 .github.io` ，如下图
+将 `_config.yml` 文件中 `url` 修改为 `https://"你的GitHub用户名" + .github.io`, 清空 CNAME 文件内容并提交，再将项目名称修改为 `你的GitHub用户名 .github.io` ，如下图
 
 ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n17uz8d8j31jo0v842k.jpg)
 
@@ -134,13 +134,13 @@ sidebar-about-description: "知识就是力量。"
 sidebar-avatar: /img/sidebar-avatar.jpg
 ```
 
-侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap[栅格系统](http://v3.bootcss.com/css/)。
+侧边栏是响应式布局的，当屏幕尺寸小于 992px 的时候，侧边栏就会移动到底部。具体请见 bootstrap [栅格系统](http://v3.bootcss.com/css/)。
 
 **[:arrow_up: 返回导航](#使用)**
 
 ### 推荐标签
 
-推荐标签位于侧边栏首部，针对博客的tags进行分类。相关配置在 `_config.yml` 中：
+推荐标签位于侧边栏首部，针对博客的 tags 进行分类。相关配置在 `_config.yml` 中：
 
 ```
 ## 标签设置
@@ -207,13 +207,13 @@ friends: [   
 
 ### 评论
 
-博客目前支持 [Disqus](http://disqus.com)和[Gitalk](https://gitalk.github.io/) 评论系统。
+博客目前支持 [Disqus](http://disqus.com) 和 [Gitalk](https://gitalk.github.io/) 评论系统。
 
 #### Disqus
 
 优点：配置简单，国际比较流行，界面也很大气、简洁，如果有人评论，还能实时通知，直接回复通知的邮件就行了。
 
-缺点：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，并且在国内被墙了。
+缺点：评论必须要去注册一个 disqus 账号，分享一般只有 Facebook 和 Twitter，并且在国内被墙了。
 
 **使用：**
 
