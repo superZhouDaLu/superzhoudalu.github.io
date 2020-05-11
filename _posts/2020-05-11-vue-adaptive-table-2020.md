@@ -14,7 +14,7 @@ tags:
 
 > 示例版本为 Element-ui 2.13.1 + Vue 2.6.11
 
-![demo.gif](http://ww1.sinaimg.cn/large/005yqb1Zly1geoix0nbkjg30c806oqn5.gif)
+![demo.gif](http://ww1.sinaimg.cn/large/005yqb1Zly1geokm94qxtg31hc0t4qqz.gif)
 
 本人是做后台开发的，由于公司业务要求需要将前后台模块进行分离，两年前选择使用 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 项目进行前台的开发，该框架集成了很多功能，特别适合对 Vue 很陌生的新手，公司项目组成员接受程度普遍较高。
 
