@@ -4,7 +4,7 @@ title:      Vue 表格自适应高度
 subtitle:   为 el-table 添加自适应高度指令
 date:       2020-05-11
 author:     SuperZhouDalu
-header-img: img/home-bg-o.jpg
+header-img: img/post-bg-universe.jpg
 catalog: true
 tags:                              
     - 前端
@@ -18,7 +18,23 @@ tags:
 
 本人是做后台开发的，由于公司业务要求需要将前后台模块进行分离，两年前选择使用 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 项目进行前台的开发，该框架集成了很多功能，特别适合对 Vue 很陌生的新手，公司项目组成员接受程度普遍较高。
 
-在使用过程中 **表格** 是必不可少的一个控件，用于展示数据，单页数据量过多就会导致浏览器自动生成右侧滚动条。如果页面有头部信息或查询按钮，移动滚动条后会遮挡住这些操作和信息内容。Element-UI 中的 el-table 提供了设置高度的选项，在代码中设置 height 属性就可以限制表格的高度，数据量过多也只会在表格内部生成滚动条，而不是整个页面生成滚动条。但是这个高度需要固定的数值，不同的分辨率或者缩放后的浏览器使用固定高度后，不能满足只在 el-table 内部生成滚动条的条件。想要满足上述条件就需要使用 `v-adaptive` 指令了。
+在使用过程中 **表格** 是必不可少的一个控件，用于展示数据，单页数据量过多就会导致浏览器自动生成右侧滚动条。
+
+![demo1.png](http://ww1.sinaimg.cn/large/005yqb1Zly1geok2ppdovj31hb0pudij.jpg)
+
+如果页面有头部信息或查询按钮，移动滚动条后会遮挡住这些操作和信息内容。
+
+![demo2.png](http://ww1.sinaimg.cn/large/005yqb1Zly1geok3qxzt5j31h90q2gob.jpg)
+
+Element-UI 中的 el-table 提供了设置高度的选项，在代码中设置 height 属性就可以现在表格的高度，数据量过多也只会在表格内部生成滚动条，而不是整个页面生成滚动条。
+
+![demo3.png](http://ww1.sinaimg.cn/large/005yqb1Zly1geok5sq3glj31ha0pz40y.jpg)
+
+但是这个高度需要固定的数值，不同的分辨率或者缩放后的浏览器使用固定高度后，不能满足只在 el-table 内部生成滚动条的条件。
+
+![demo4.png](http://ww1.sinaimg.cn/large/005yqb1Zly1geok76w3pcj31h50kztau.jpg)
+
+想要满足上述条件就需要使用 `v-adaptive` 指令了。
 
 ### Vue 自定义指令
 
