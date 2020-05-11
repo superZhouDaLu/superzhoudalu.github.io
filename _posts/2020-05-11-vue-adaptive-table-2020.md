@@ -144,7 +144,7 @@ export default { 
 如果存在多个页面需要设置自适应高度，为了减少使用指令的复杂度，我们可以在 `main.js` 中全局引入自定义的指令，上述 `script`的内容就不需要在每个页面进行写入了。
 
 ```
-import adaptive from './directive/adaptive'
+import adaptive from './directive/el-table'
 
 Vue.use(adaptive)
 ```
